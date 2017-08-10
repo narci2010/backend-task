@@ -1,7 +1,7 @@
 # 拓胜科技后端工程师上机考试试题
 
 ## 以下试题根据自己的应聘职位的等级自行选择一题作答即可。
-* 任务1（初、中级）：使用Springmvc+Mybatis的架构完成订单管理基本的CRUD功能。
+* 任务1：使用Springmvc+Mybatis的架构完成订单管理基本的CRUD功能。
     * 不会搭建环境的同学可以参考我们准备好的手脚架：https://github.com/narci2010/springmvc-mybatis
     * 下图是订单和订单项表结构（请忽略商品表）：
       <img src="task1.jpg"/>
