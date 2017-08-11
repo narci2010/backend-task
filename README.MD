@@ -21,7 +21,7 @@
              删除订单项ID为1的订单项：/order/del/1 （删除订单会自动删除订单项）
              删除多条订单项记录：/order/delany  （删除订单会自动删除订单项）
            3. 使用JQuery Ajax函数测试上述api （中级）
-           4. 使用Spring提供的RestTemplate或HttpClient测试上述api （中级）
+          4. 使用Spring提供的RestTemplate或HttpClient测试上述api （中级）
            5. 解决跨域访问问题 （中级）
            6. 给以上业务功能加上权限控制（至少有资源、角色和用户三张表实现），
            业务功能的权限能够灵活配置（可以采用shiro或Spring Security实现）（高级）
