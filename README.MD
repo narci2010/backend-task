@@ -8,18 +8,18 @@
  
           1. 实现订单项CRUD操作：Spring MVC RESTful API （初级）
              显示订单项ID为1的订单项信息：/orderitem/1
-             显示订单项显示全部订单项信息：/orderitems
+             显示全部订单项信息：/orderitems
              增加一条订单项：/orderitem/add
              修改一条订单项：/orderitem/modify
              删除订单项ID为1的订单项：/orderitem/del/1
              删除多条订单项记录：/orderitem/delany  
           2. 实现订单CRUD操作：Spring MVC RESTful API （中级）
-             显示订单项ID为1的订单信息：/order/1
-             显示订单项显示全部订单信息：/orders
+             显示订单ID为1的订单信息：/order/1
+             显示全部订单信息：/orders
              增加一条订单：/order/add
              修改一条订单：/order/modify
-             删除订单项ID为1的订单：/order/del/1 （删除订单会自动删除订单）
-             删除多条订单记录：/order/delany  （删除订单会自动删除订单）
+             删除订单ID为1的订单：/order/del/1 （删除订单会自动删除订单项）
+             删除多条订单记录：/order/delany  （删除订单会自动删除订单项）
            3. 使用JQuery Ajax函数测试上述api （中级）
            4. 使用Spring提供的RestTemplate或HttpClient测试上述api （中级）
            5. 解决跨域访问问题 （中级）
