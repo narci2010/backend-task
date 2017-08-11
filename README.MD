@@ -5,6 +5,7 @@
     * 不会搭建环境的同学可以参考我们准备好的手脚架(项目jar包一定要使用maven管理)：https://github.com/narci2010/springmvc-mybatis
     * 下图是订单和订单项表结构（请忽略商品表）：
       <img src="task1.jpg"/>
+    * 提交的源代码应该包含数据库脚本（含测试数据），且源代码应该是可以运行的。
  
           1. 实现订单项CRUD操作：Spring MVC RESTful API （初级）
              显示订单项ID为1的订单项信息：/orderitem/1
@@ -18,7 +19,7 @@
              显示全部订单信息：/orders
              增加一条订单：/order/add
              修改一条订单：/order/modify
-             删除订单ID为1的订单：/order/del/1 （删除订单会自动删除订单项）
+             删除订单ID为1的订单：/order/del/1 （删除订单会自动删除订单项）
              删除多条订单记录：/order/delany  （删除订单会自动删除订单项）
            3. 使用JQuery Ajax函数测试上述api （中级）
            4. 使用Spring提供的RestTemplate或HttpClient测试上述api （中级）
