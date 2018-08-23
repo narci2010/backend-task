@@ -10,17 +10,17 @@
           1. 实现订单项CRUD操作：Spring MVC RESTful API （初级）
              显示某个订单项信息：http get方法，/orderitem/id，其中id是订单项id(变量)，比如 显示订单项ID为1的订单项信息 /orderitem/1 
              显示全部订单项信息：http get方法，/orderitems
-             增加一条订单项：http post方法，/orderitem 参数application/json格式 {...}
-             修改一条订单项：http put方法，/orderitem/id 其他id是变量，参数application/json格式 {...}
+             增加一条订单项：http post方法，/orderitem 参数application/json格式 {"goodsId":1,"goodsMount":10,...}
+             修改一条订单项：http put方法，/orderitem/id 其他id是变量，参数application/json格式{"id":1,"goodsId":1,"goodsMount":20,...}
              删除订单项ID为1的订单项：http delete方法，/orderitem/id 其他id是变量
-             删除多条订单项记录：http delete方法，/orderitem 参数application/json格式 {"id":"1","id":"2","id":"3",...}
+             删除多条订单项记录：http delete方法，/orderitem 参数application/json格式 {"id":1,"id":2,"id":3,...}
           2. 实现订单CRUD操作：Spring MVC RESTful API （中级）
              显示订单ID为1的订单信息：http get方法，/order/id id是变量，id=1，2，3，
              显示全部订单信息：http get方法，/orders
-             增加一条订单：http post方法，/order  参数application/json格式 {...}
-             修改一条订单：http put方法，/order/id id是变量，id=1，2，3，参数application/json格式 {...}
+             增加一条订单：http post方法，/order  参数application/json格式 {"orderAmount":200,"receverAddress":"Guangzhou University",...}
+             修改一条订单：http put方法，/order/id id是变量，id=1，2，3，参数application/json格式 {"id":1,"orderAmount":200,"receverAddress":"Guangzhou University",...}
              删除订单ID为1的订单：http delete法，/order/id id=1，2，3
-             删除多条订单记录：http delete法，/order  参数application/json格式 {"id":"1","id":"2","id":"3",...}
+             删除多条订单记录：http delete法，/order  参数application/json格式 {"id":1,"id":2,"id":3,...}
            3. 使用JQuery Ajax函数测试上述api （中级）
            4. 使用Spring提供的RestTemplate或HttpClient测试上述api （中级）
            5. 解决跨域访问问题 （中级）
